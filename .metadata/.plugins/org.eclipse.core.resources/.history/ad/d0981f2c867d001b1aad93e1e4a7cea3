@@ -1,0 +1,53 @@
+package com.sample;
+
+import java.lang.reflect.Array;
+
+public class Bubble {
+	
+	public void getSortedArray(int[] arry)
+	{
+		for(int i =0;i<arry.length-1;i++)
+		{
+			for (int j=0;j<arry.length-1-i;j++)
+			{
+				if(arry[j]> arry[j+1])
+				{
+					int temp =arry[j+1];
+					arry[j+1]=arry[j];
+					arry[j]=temp;
+					
+				}
+			}
+		}
+	}
+	public void display(int[] arry)
+	{
+		for(int i =0;i<arry.length-1;i++)
+		{
+			System.out.print(arry[i] +",");
+		}
+	}
+	
+	
+
+}
+
+ class Program
+{
+
+	 public static void main(String args[])
+		{
+			System.out.println("Raju");
+			
+			int[] arry = {12,78,36,5,96,23,89,1236};
+			Bubble b =new Bubble();
+			b.getSortedArray(arry);
+			b.display(arry);
+			
+			
+		}
+}
+
+
+
+

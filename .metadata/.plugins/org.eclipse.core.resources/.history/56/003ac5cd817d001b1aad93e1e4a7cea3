@@ -1,0 +1,22 @@
+package com.sample;
+ 
+public class Bubble {
+	
+	
+	
+
+}
+
+ class Program
+{
+
+	 public static void main()
+		{
+			System.out.println("Pramod");
+			
+		}
+}
+
+
+
+
